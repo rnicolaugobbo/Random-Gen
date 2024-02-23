@@ -17,8 +17,8 @@ def compressor(hash_code):
     return hash_comp
 
 def menu():
-    print("Press any key to shuffle the list of fruits.")
-    str(input())
+    # print("Press any key to shuffle the list of fruits.")
+    # str(input())
 
     shuffled_list = shuffle_list(fruit_db)
     print("This is the new list:\n")
